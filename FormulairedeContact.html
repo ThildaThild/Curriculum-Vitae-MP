@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="formulaire de contact du CV de Mathilde PAISLEY">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulaire de Contact</title>
+        <link rel="stylesheet" type="text/css" href="main.css"/>
+    </head>
+
+    <body>
+        <!--Header-->
+        <div class="header">
+            <div class="photoperso">
+                <img src="Images/ThildaBella.jpg" alt="photoperso">
+            </div>
+                
+            <div class="posteRechercher size40 colorBleuDark">
+                    Consultante Paie SIRH<br>
+            </div>
+
+            <div class="infoPerso size40 colorBleuDark">
+                    Mathilde PAISLEY <br>
+                    139 Boulevard Jean Jaurès <br>
+                    Résidence Maurice Ravel <br>
+                    92110 Clichy
+            </div>
+        </div>
+
+        <!--Nav-->  
+        <nav>
+            <ul>
+
+                <li class="menuInfo">
+                  <a href="Index.html">Mes Informations</a>
+                </li>
+
+                <li class="menuExpérience">
+                  <a href="ExpériencesProfessionnelles.html">Mes Expériences Professionnelles</a>
+                </li>
+
+                <li class="menuContac">
+                  <a href="FormulairedeContact.html">Formulaire de Contact</a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <!-- Corps du site-->  
+        <div class="Corps size20 colorBleuDark">
+            <h2 class="size40 borderBottomBlue">Recherche un poste de Consultante SIRH</h2>
+            <Div>
+                Portable : 06 74 39 46 04 <br>
+                Mail : mathilde.paisley@@icloud.com 
+            </Div>
+            <h2 class="size40 borderBottomBlue">Me contacter</h2>
+            <div>
+                <form>
+                   <fieldset>
+                       <legend>Renseigner les informations</legend>
+                        <div>
+                            <label for="nom">Nom :</label>
+                            <input type="text" name="nom" id="nom" placeholder="Nom / Prénom"/>
+                        </div>
+
+                        <div>
+                            <label for="mail">Mail :</label>
+                            <input type="email" name="mail" id="mail" placeholder="nom@exemple.com"/>
+                        </div>
+
+                        <div>
+                            <label for="Objet">Objet : </label>
+                            <select name="Objet" id="Objet">
+                                <option value="">Questions</option>
+                                <option value="Autres">Autres</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="Message">Message</label>
+                            <textarea name="Message" id="Message" cols="30" rows="5"></textarea>
+                        </div>
+
+                        <input type="submit" name="Valider" id="Valider" class="buttomContact BgColorsBlue TextColorwhitesmoke ">
+
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+        <!--Footer du site-->  
+        <div class="Footer TextColorwhitesmoke textCenter BgColorsBlue">
+            Tous droits réservés
+        </div>
+    </body>
+       
+</html>
